@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+backend/.venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Next.js Build
+frontend/.next/
+frontend/out/
+
+# Environment Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database & Uploads
+backend/data/*.db
+backend/data/uploads/*
+backend/data/faiss_index/*
+!backend/data/uploads/.gitkeep
+!backend/data/faiss_index/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test Caches
+.pytest_cache/
+.coverage
+htmlcov/
